@@ -12,6 +12,7 @@ app.use(express.static(path.join(__dirname, '/')));
 app.use(cors())
 
 mongoose.connect(process.env.MONGO_URI, {
+    dbName: process.env.MONGO_DB_NAME,
     user: process.env.MONGO_USERNAME,
     pass: process.env.MONGO_PASSWORD,
     useNewUrlParser: true,
@@ -20,7 +21,7 @@ mongoose.connect(process.env.MONGO_URI, {
     if (err) {
         console.log("error!! " + err)
     } else {
-      //  console.log("MongoDB Connection Successful")
+       console.log("MongoDB Connection Successful")
     }
 })
 
