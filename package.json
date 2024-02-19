@@ -1,5 +1,5 @@
 {
-  "name": "Solar System",
+  "name": "SolarSystem",
   "version": "6.7.6",
   "author": "Siddharth Barahalikar <barahalikar.siddharth@gmail.com>",
   "homepage": "https://www.linkedin.com/in/barahalikar-siddharth/",
@@ -21,8 +21,8 @@
     "nyc": "^15.1.0"
   },
   "devDependencies": {
-    "chai": "*",
-    "chai-http": "*",
-    "mocha": "*"
+    "chai": "^4.4.1",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
   }
 }
