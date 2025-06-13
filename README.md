@@ -1,4 +1,4 @@
-# Solar System NodeJS Application
+# Solar System NodeJS Application test
 
 A simple HTML+MongoDB+NodeJS project to display Solar System and it's planets.
 
