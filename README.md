@@ -1,3 +1,4 @@
+#update 2 to check sync without clicking on update now button
 # Solar System NodeJS Application test
 
 
